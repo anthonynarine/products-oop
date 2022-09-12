@@ -1,5 +1,6 @@
 from product import Product
 from customer import Customer
+from product import Product
 
 
 customer_one = Customer("Julia")
@@ -15,7 +16,9 @@ customer_one.add_item_to_cart(product_two)
 customer_one.add_item_to_cart(product_three)
 customer_one.add_item_to_cart(product_four)
 
-# customer_one.view_items_in_cart()
+customer_one.view_items_in_cart()
+print (len(customer_one.shopping_cart.products))
 customer_one.shopping_cart.empty_shopping_cart()
-# customer_one.view_items_in_cart
-# 
+customer_one.view_items_in_cart
+print (len(customer_one.shopping_cart.products))
+print("\n")
