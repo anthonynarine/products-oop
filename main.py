@@ -16,8 +16,9 @@ customer_one.add_item_to_cart(product_two)
 customer_one.add_item_to_cart(product_three)
 customer_one.add_item_to_cart(product_four)
 
-customer_one.view_items_in_cart()
-print (len(customer_one.shopping_cart.products))
+# customer_one.view_items_in_cart()
+print (f"\nThe total price of the shopping carts items is :{customer_one.shopping_cart.cart_total()}\n")
+print (f"Total items in shopping cart = {len(customer_one.shopping_cart.products)}")
 customer_one.shopping_cart.empty_shopping_cart()
 customer_one.view_items_in_cart
 print (len(customer_one.shopping_cart.products))

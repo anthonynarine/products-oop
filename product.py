@@ -6,9 +6,7 @@ class Product:
         self.category = category
 
 
-p = Product("p", 10, "p")
-print (p.price)
-    
+
     
     
     

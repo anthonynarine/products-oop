@@ -15,7 +15,7 @@ class ShoppingCart:
 
     def empty_shopping_cart(self):
         self.products.clear()
-        print (f"The cart is now empty")
+        print (f"The cart is was emptied")
 
 
 
